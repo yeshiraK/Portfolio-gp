@@ -35,11 +35,16 @@ export function ExperienceSection() {
             <p className="text-gray-400 mb-8 md:mb-10 leading-relaxed text-base md:text-lg">
               I build and deploy machine learning solutions that solve real business problems. My experience spans Python, data preprocessing, model training, and turning ML prototypes into usable tools. I focus on writing clean code and translating technical work into measurable impact.
             </p>
-            <Button className="bg-white text-black hover:bg-gray-50 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]">
-              <FileText className="w-5 h-5" />
-              See full resume
-            </Button>
-          </div>
+           <a
+  href="https://drive.google.com/file/d/1CAP4iQIMmtDQn2dagzo4gET2eXvpFLmP/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button className="bg-white text-black">
+    <FileText className="w-5 h-5" />
+    See full resume
+  </Button>
+</a>
 
           <div className="space-y-6">
             {experiences.map((exp, index) => (
