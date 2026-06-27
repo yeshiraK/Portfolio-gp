@@ -39,11 +39,10 @@ export function ExperienceSection() {
   href="https://drive.google.com/file/d/1CAP4iQIMmtDQn2dagzo4gET2eXvpFLmP/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
+  className="bg-white text-black px-6 py-3 rounded-lg inline-flex items-center gap-2"
 >
-  <Button className="bg-white text-black">
-    <FileText className="w-5 h-5" />
-    See full resume
-  </Button>
+  <FileText className="w-5 h-5" />
+  See full resume
 </a>
 
           <div className="space-y-6">
